@@ -2,6 +2,15 @@ import 'package:flutter/material.dart';
 
 import '../forms/forms.dart';
 
+/// Opens a modal dialog in GUI
+/// 
+/// args:
+///    - BuildContext context: Flutter GUI contexy
+///    - String operation: Determines which dialog will open upon method call
+///    - String title: Text to be displayed at the top
+/// 
+/// return:
+///    - N/A
 void openModal(BuildContext context, {operation, title = "Sample Modal"}) {
   Widget _modalBody;
   switch (operation) {
