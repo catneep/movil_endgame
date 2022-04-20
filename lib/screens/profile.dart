@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/elements/profile_image.dart';
+import '../widgets/elements/profile_components.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({ Key? key }) : super(key: key);
